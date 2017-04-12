@@ -2,13 +2,7 @@ package testing
 
 class Abc {
 
-    String temp
-
+    String name
     static constraints = {
-        temp unique: true
-    }
-
-    static mapping = {
-        datasource('ALL')
     }
 }
